@@ -7,10 +7,32 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="clockContainer">
-        <div id="hour"></div>
-        <div id="minute"></div>
-        <div id="second"></div>
+    <div style="position: relative; display: flex; justify-content: center; align-items: center; min-height: 100vh;">
+        <div id="clockContainer">
+            <div class="tick-layer"></div>
+            <div class="glass-reflection"></div>
+            <div class="outer-ring"></div>
+            
+            <div class="roman-numeral num-XII">XII</div>
+            <div class="roman-numeral num-I">I</div>
+            <div class="roman-numeral num-II">II</div>
+            <div class="roman-numeral num-III">III</div>
+            <div class="roman-numeral num-IV">IV</div>
+            <div class="roman-numeral num-V">V</div>
+            <div class="roman-numeral num-VI">VI</div>
+            <div class="roman-numeral num-VII">VII</div>
+            <div class="roman-numeral num-VIII">VIII</div>
+            <div class="roman-numeral num-IX">IX</div>
+            <div class="roman-numeral num-X">X</div>
+            <div class="roman-numeral num-XI">XI</div>
+            
+            <div id="hour"></div>
+            <div id="minute"></div>
+            <div id="second"></div>
+            
+            <div class="center-pin"></div>
+        </div>
+        <div class="digital-hint" id="digitalTime"></div>
     </div>
 <script src="script.js"></script>
 </body>
